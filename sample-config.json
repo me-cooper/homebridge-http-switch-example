@@ -1,0 +1,25 @@
+{
+
+    "bridge": {
+        "name": "Makesmart Server",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "145-55-541"
+    },
+	
+	"accessories": [
+        {
+          "accessory": "HTTP-SWITCH",
+          "name": "Switch",
+          
+          "switchType": "stateful",
+          
+          "httpMethod": "POST",
+          "onUrl": "http://esp8266.local/on",
+			    "offUrl": "http://esp8266.local/off",
+					  
+			    "statusUrl": "http://esp8266.local/state"
+        }   
+    ]
+	
+}
